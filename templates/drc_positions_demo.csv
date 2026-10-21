@@ -1,0 +1,19 @@
+position_id,drc_class,bucket,obligor,seniority,rating,notional,market_value,maturity,instrument,rw,zero_rw,hedge_maturity,pnl
+BOND-ENERGYCO-5Y,NonSec,Corporates,EnergyCo,Senior,BBB,20000000.0,20196255.148618415,5.0,bond,,False,,
+BOND-BANKCO-3Y,NonSec,Corporates,BankCo,Senior,A,15000000.0,15027678.128417423,3.0,bond,,False,,
+BOND-TELCOHY-7Y,NonSec,Corporates,TelcoHY,Senior,BB,10000000.0,10018530.036972549,7.0,bond,,False,,
+BOND-SOVA-3Y,NonSec,Sovereigns,SovereignA,Senior,BBB,30000000.0,29953384.213318486,3.0,bond,,True,,
+COVERED-BANKCO-5Y,NonSec,Corporates,CoveredBankCo,Covered,AA,10000000.0,9943252.478728376,5.0,bond,,False,,
+CDS-BANKCO-5Y-BUY,NonSec,Corporates,BankCo,Senior,A,-20000000.0,-20182288.73168562,5.0,cds,,False,,
+CDS-ENERGYCO-5Y-SELL,NonSec,Corporates,EnergyCo,Senior,BBB,10000000.0,9977454.046360081,5.0,cds,,False,,
+RMBS-NL-A1,SecNonCTP,RMBS | Europe,RMBS-NL-2026-A1,Senior,AAA,12000000.0,12024731.195171649,4.0,bond,0.016,False,,
+CTP-ITRAXX-3-6,CTP,iTraxx Europe IG,ITRAXX-EUR-S46 3-6%,Senior,A,8000000.0,8441228.22949389,5.0,cds_tranche,0.08,,,
+CTP-ITRAXX-IDX-HEDGE,CTP,iTraxx Europe IG,ITRAXX-EUR-S46,Senior,A,-20000000.0,-20367690.191244908,5.0,cds_index,,,,
+EQ-TECHAE,NonSec,Corporates,TechAE,Equity,Unrated,7200000.0,7200000.0,1.0,cash_equity,,,,
+EQ-BANKAE-SHORT,NonSec,Corporates,BankAE,Equity,Unrated,-2520000.0,-2520000.0,1.0,cash_equity,,,,
+EQ-CONSUMERAE,NonSec,Corporates,ConsumerAE,Equity,Unrated,1900000.0,1900000.0,1.0,cash_equity_hedge,,,0.5,
+EQ-MININGEM,NonSec,Corporates,MiningEM,Equity,Unrated,1591600.0,1591600.0,1.0,cash_equity,,,,
+EQ-SMALLCAP,NonSec,Corporates,SmallCapAE,Equity,Unrated,1400000.0,1400000.0,1.0,cash_equity,,,,
+EQFWD-CONSUMERAE-6M,NonSec,Corporates,ConsumerAE,Equity,Unrated,-1891184.2914344482,-1896677.9076786067,0.5,equity_forward,,,,
+EQOPT-BANKAE-P-SOLD,NonSec,Corporates,BankAE,Equity,Unrated,6000000.0,5637981.24857585,0.5,equity_option,,,,-362018.7514241495
+EQOPT-TECHAE-C,NonSec,Corporates,TechAE,Equity,Unrated,0.0,426967.1380905898,1.0,equity_option,,,,426967.1380905898

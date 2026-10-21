@@ -1,0 +1,7 @@
+position_id,description,rrao_type,notional,eu_exempt
+BARRIER-EQ-KO,Knock-out call on TechAE,Other,5000000.0,False
+VARSWAP-IDX,Variance swap on EU large-cap index,Exotic,3000000.0,True
+BERM-SWPT-EUR,Bermudan swaption EUR 10NC2,Other,40000000.0,True
+CMS-SPREAD-OPT,EUR CMS 10Y-2Y spread option,Other,25000000.0,True
+WEATHER-HDD,Heating-degree-day weather swap,Exotic,2000000.0,False
+CTP-ITRAXX-3-6,CTP tranche (MAR23.4(2)),Other,8000000.0,False
